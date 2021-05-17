@@ -1,6 +1,14 @@
 # ML_Avila
 Machine learning project to classify the authors based on writing style of the Avila bible
 
+## 1 Prepare
+
+# 1.1 Handling missing data: The data had multiple missing instances.
+    The missing values were replaced with most frequent values using the Imputer package from sklearn.
+# 1.2 Handling class imbalance:
+    The data had 7581 instances from one class and 2421 instances from the other class.
+    Resample utility from the sklearn package was used to upsample the data to match both classes to 7581 instances.
+
 
 2 Methods
   The following classifiers were implemented and compared,
